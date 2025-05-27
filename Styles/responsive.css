@@ -1,0 +1,130 @@
+@media screen and (max-width: 1200px) {
+  .video-container iframe {
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .primary-button {
+    font-size: 18px;
+    padding: 15px 20px;
+  }
+
+  .heading-content {
+    padding: 20px;
+  }
+
+  .heading-content p {
+    width: 100%;
+  }
+
+  header {
+    padding: 16px 0;
+  }
+
+  .banner-content h2 {
+    font-size: 40px;
+  }
+
+  .banner-content p {
+    width: 100%;
+  }
+
+  .blog-banner {
+    flex-direction: column-reverse;
+  }
+
+  .blog-banner-content {
+    width: 100%;
+  }
+
+  .inspiration {
+    width: 87.5%;
+  }
+
+  .inspiration .heading-content p {
+    width: 100%;
+  }
+
+  .video-container iframe {
+    height: 400px;
+  }
+
+  .targets-card-container {
+    gap: 18px;
+  }
+
+  footer {
+    padding: 28px 70px;
+  }
+
+  footer p {
+    font-size: 16px;
+    word-spacing: -5px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .heading-content h2 {
+    font-size: 28px;
+  }
+
+  .banner-content h2 {
+    font-size: 30px;
+  }
+
+  .video-container iframe {
+    height: 350px;
+  }
+
+  .targets-card-container {
+    flex-direction: column;
+  }
+
+  footer {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .primary-button {
+    font-size: 16px;
+    padding: 14px 18px;
+  }
+
+  header,
+  .banner-container,
+  .blog-container,
+  .inspiration-container,
+  .targets-container {
+    margin-bottom: 50px;
+  }
+
+  .heading-content {
+    margin-bottom: 28px;
+  }
+
+  .logo {
+    font-size: 20px;
+  }
+
+  .banner {
+    padding: 30px;
+  }
+
+  .video-container {
+    padding: 15px;
+  }
+
+  .video-container iframe {
+    height: 280px;
+  }
+
+  .target-card {
+    width: 100%;
+  }
+
+  footer {
+    padding: 20px;
+  }
+}
